@@ -1,0 +1,775 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:ads="http://schemas.android.com/apk/res-auto"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:background="@drawable/backgroundsmall"
+    style="@android:style/Theme.Wallpaper.NoTitleBar.Fullscreen">
+
+
+
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/scrollView"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="79dp"
+        android:scrollIndicators="right">
+
+
+
+    <TableLayout
+       android:layout_width="match_parent"
+       android:layout_height="382dp"
+       android:layout_gravity="right"
+        android:layout_marginBottom="72dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Alright"
+                android:onClick="playAlright"
+                android:id="@+id/button001"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ChillPill"
+                android:onClick="playChillpill"
+                android:id="@+id/button002"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Drink"
+                android:onClick="playDrinkaday"
+                android:id="@+id/button003"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Penis"
+                android:onClick="playPenis"
+                android:id="@+id/button004"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Eh"
+                android:onClick="playEh"
+                android:id="@+id/button005"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Erection"
+                android:onClick="playErection"
+                android:id="@+id/button006"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Faggot"
+                android:onClick="playFaggot"
+                android:id="@+id/button007"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Straight"
+                android:onClick="playGayor"
+                android:id="@+id/button008"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Dick"
+                android:onClick="playHesadick"
+                android:id="@+id/button009"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gay"
+                android:onClick="playHesgay"
+                android:id="@+id/button010"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="High"
+                android:onClick="playHigh"
+                android:id="@+id/button011"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Happy"
+                android:onClick="playHimhappy"
+                android:id="@+id/button012"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+
+        </TableRow>
+
+        <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hizzy"
+            android:onClick="playHizzy"
+            android:id="@+id/button013"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_column="0"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:typeface="monospace" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Intensifies"
+            android:onClick="playIntensifies"
+            android:id="@+id/button014"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_column="0"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:typeface="monospace" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="IsItOk"
+            android:onClick="playIsitok"
+            android:id="@+id/button015"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_column="0"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:typeface="monospace" />
+
+
+    </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iwasboard1"
+                android:onClick="playIwasboard1"
+                android:id="@+id/button016"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Iwasboard2"
+                android:onClick="playIwasboard2"
+                android:id="@+id/button017"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Guzzling"
+                android:onClick="playJizzguzzling"
+                android:id="@+id/button018"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+
+        </TableRow>
+
+        <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Listen"
+            android:onClick="playListen"
+            android:id="@+id/button019"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_column="0"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:typeface="monospace" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Vicodin"
+            android:onClick="playVicodin"
+            android:id="@+id/button020"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_column="0"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:typeface="monospace" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Love"
+            android:onClick="playLove"
+            android:id="@+id/button021"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_column="0"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:typeface="monospace" />
+
+
+    </TableRow>
+
+        <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="MintyFresh"
+            android:onClick="playMinty"
+            android:id="@+id/button022"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_column="0"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:typeface="monospace" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Naughty"
+            android:onClick="playNaughtyhabit"
+            android:id="@+id/button023"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_column="0"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:typeface="monospace" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="InLove"
+            android:onClick="playNotinlove"
+            android:id="@+id/button024"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_column="0"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:typeface="monospace" />
+
+
+    </TableRow>
+
+        <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NotMuch"
+            android:onClick="playNotmuch"
+            android:id="@+id/button025"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_column="0"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:typeface="monospace" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Painkillers"
+            android:onClick="playPainkillers"
+            android:id="@+id/button026"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_column="0"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:typeface="monospace" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Rapist"
+            android:onClick="playRapist"
+            android:id="@+id/button027"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_column="0"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:typeface="monospace" />
+
+
+    </TableRow>
+
+        <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Right"
+            android:onClick="playRight"
+            android:id="@+id/button028"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_column="0"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:typeface="monospace" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SayThat"
+            android:onClick="playSaythat"
+            android:id="@+id/button029"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_column="0"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:typeface="monospace" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SeeOther"
+            android:onClick="playSeeother"
+            android:id="@+id/button030"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_column="0"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:typeface="monospace" />
+
+
+    </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="ShutUp"
+                android:onClick="playShutup"
+                android:id="@+id/button031"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SmallPenis"
+                android:onClick="playSmallpenis"
+                android:id="@+id/button032"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="SpunkDrunk"
+                android:onClick="playSpunkdrunk"
+                android:id="@+id/button033"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Listening"
+                android:onClick="playStartlistening"
+                android:id="@+id/button034"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="StilLove"
+                android:onClick="playStillloveyou"
+                android:id="@+id/button035"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="StillDo"
+                android:onClick="playStilldo"
+                android:id="@+id/button036"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Time"
+                android:onClick="playTimetomyself"
+                android:id="@+id/button037"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Uh"
+                android:onClick="playUh"
+                android:id="@+id/button038"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Urban"
+                android:onClick="playUrbancenter"
+                android:id="@+id/button039"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+
+        </TableRow>
+
+        <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yeah"
+            android:onClick="playYeah"
+            android:id="@+id/button040"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_column="0"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:typeface="monospace" />
+
+
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Yes"
+            android:onClick="playYes"
+            android:id="@+id/button041"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_column="0"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:typeface="monospace" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="YesSir"
+            android:onClick="playYessir"
+            android:id="@+id/button042"
+            android:layout_below="@+id/textView"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_column="0"
+            style="@android:style/Widget.Holo.Light.Button.Small"
+            android:typeface="monospace" />
+
+
+    </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mormon"
+                android:onClick="playYouamorman"
+                android:id="@+id/button043"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Lesbian"
+                android:onClick="playYouralesbian"
+                android:id="@+id/button044"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YourFat"
+                android:onClick="playYourfat"
+                android:id="@+id/button045"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+
+        </TableRow>
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YourGay"
+                android:onClick="playYourgay"
+                android:id="@+id/button046"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace" />
+
+
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="YourOverweight"
+                android:onClick="playYouroverweight"
+                android:id="@+id/button047"
+                android:layout_below="@+id/textView"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_column="0"
+                style="@android:style/Widget.Holo.Light.Button.Small"
+                android:typeface="monospace"
+                android:textSize="10dp" />
+
+        </TableRow>
+
+
+    </TableLayout>
+    </ScrollView>
+
+
+</RelativeLayout>
